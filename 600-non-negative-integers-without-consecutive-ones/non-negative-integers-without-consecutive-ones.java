@@ -19,7 +19,7 @@ class Solution {
                 }
                 prevBit = 1;
             }
-            else {
+            else{
                 prevBit = 0;
             }
         }
