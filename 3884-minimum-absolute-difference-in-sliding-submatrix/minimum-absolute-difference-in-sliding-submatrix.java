@@ -5,7 +5,9 @@ class Solution {
 
         int[][] ans = new int[m - k + 1][n - k + 1];
 
-        if(k == 1) return ans;
+        if(k == 1){
+            return ans;
+        }
 
         for(int i = 0; i <= m - k; i++){
             for(int j = 0; j <= n - k; j++){
