@@ -15,9 +15,9 @@ class Solution {
         if(grid[0][0] == 5){
             return false;
         }
-        // if(grid[grid.length - 1][grid[0].length - 1] == 4){
-        //     return false;
-        // }
+        if(grid[grid.length - 1][grid[0].length - 1] == 4){
+            return false;
+        }
 
         int m = grid.length, n = grid[0].length;
         if(m == 1 && n == 1){
